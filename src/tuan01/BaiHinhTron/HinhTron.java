@@ -39,11 +39,9 @@ public class HinhTron {
 	}
 	public static void main(String[] args) {
 		HinhTron h1 = new HinhTron(new ToaDo("O", 3, 4), 12);
-        System.out.println("Thong tin hinh tron");
-        System.out.println("Ban kinh la:");
-        System.out.println(h1.getBanKinh()); // ĐÃ SỬA: Dùng getBanKinh() thay vì banKinh
-        System.out.println("Tam la:" + h1.getTam().getTen()); // ĐÃ SỬA: Dùng getTam() thay vì tam
+		System.out.println("Thong tin hinh tron");
+		System.out.println("Ban kinh la:");
+		System.out.println(h1.getBanKinh()); 
+		System.out.println("Tam la:" + h1.getTam().getTen()); 
 	}
-	
-
 }
